@@ -31,7 +31,6 @@ justify-content: center;
   .container-home {
   height: auto;
     margin-top: 30px;
-    padding: 16px;
   }
 
   .container-about {
@@ -57,7 +56,6 @@ justify-content: center;
 @media (max-width: 762px) {
   /* HomePage组件 */
   .container-home {
-  
     margin-top: 30px;
   }
 
