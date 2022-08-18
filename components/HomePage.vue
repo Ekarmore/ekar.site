@@ -9,21 +9,14 @@
         我喜欢用编程的方式解决一些有趣的事情,目前在用技术栈为Vue3,Javascript/TypeScript,Unocss/Tailwindcss...
       </p>
       <p id="p1" class="about-text">
-        老爸，当你看到这条消息的时候说明，说明我已经成功部署了我的个人网站。
         <span>
-          <a class="underline opacity-100 text-4xl hover:text-red-600 " href="">222</a>
+          <a class="underline opacity-100 text-4xl hover:text-red-600 " href=""></a>
         </span>
       </p>
       <p id="p1" class="about-text">
-        Outside of programming, I enjoy doing photography and traveling. Some of
-        my photos can be found on Instagram. If you happen to be in the same
-        city I live (currently in Xiamen), maybe we can hang out and take some
-        photos or code together.
       </p>
       <hr />
       <p id="p1" class="about-text">
-        Find me on GitHub, Twitter, YouTube, 知乎, 微博 or 哔哩哔哩. Mail me at
-        hi@antfu.me. Chat with the community at my Discord Server.
       </p>
       <!-- 页脚注释 -->
       <p class="footer-list">Copyright © 2022-present YEKMAT</p>
