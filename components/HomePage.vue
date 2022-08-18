@@ -10,7 +10,7 @@
       </p>
       <p id="p1" class="about-text">
         <span>
-          <a class="underline opacity-100 text-4xl hover:text-red-600 " href=""></a>
+          <a class="underline opacity-100 text-2xl hover:text-red-600 " href="">当你看到这段话时，说明我的网站已经部署成功了</a>
         </span>
       </p>
       <p id="p1" class="about-text">

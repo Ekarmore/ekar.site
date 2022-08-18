@@ -22,6 +22,7 @@ layout: home
 
 <HomePage />
 
+
 <style>
 
 h1{
