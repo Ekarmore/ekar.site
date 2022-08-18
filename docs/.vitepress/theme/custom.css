@@ -1,7 +1,7 @@
 
 /* 桌面端移动端公共样式 */
 body{
-  user-select:none;
+
   margin:0;
   padding:0;
 }  
@@ -16,7 +16,7 @@ justify-content: center;
     display: none;
   } */
 .container-home {
-    margin-bottom: 30px;
+
 }
 /* footer */
 .footer-list{
@@ -28,10 +28,7 @@ justify-content: center;
 /* 屏幕宽度大于762px */
 @media (min-width: 762px) {
   /* HomePage组件 */
-  .container-home {
-  height: auto;
-    margin-top: 30px;
-  }
+
 
   .container-about {
     width: 40vw;
@@ -60,11 +57,11 @@ justify-content: center;
   }
 
   .container-about {
-    width: 80vw;
-
+    background-color: red;
   }
 
   #h2 {
+    background-color: red;
     font-size: 32px;
     font-weight: bold;
     padding: 20px 0 20px 0;
