@@ -6,7 +6,7 @@ export default defineConfig({
   // 添加Tailwindcss  
   // head: [
   //   ['link', { rel: 'stylesheet', href:'https://unpkg.com/tailwindcss@2.0.4/dist/tailwind.min.css' }]],
-  base: "/docs/",
+  base: "/",
   lang: "en-US",
   description: "Vite & Vue powered static site generator.",
   themeConfig: {
