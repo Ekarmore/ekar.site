@@ -17,7 +17,7 @@
         
       </p>
        
-      <hr class="mt-5 mb-5 w-20 mx-auto"/>
+      <hr/>
 
         <div class="pt-10  ">
  你可以在
