@@ -1,6 +1,8 @@
 
 /* 桌面端移动端公共样式 */
-
+/* body{
+  user-select:none
+}   */
 
 
 /* 游览器滚动条 */
@@ -9,8 +11,7 @@
   } */
 hr{
     width: 60px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding: 20px;
     opacity: 0.6;
     margin:auto;
 }
@@ -19,11 +20,11 @@ hr{
 }
 /* footer */
 .footer-list{
-    padding:60px 0 20px 0;
-    margin: auto;
-    text-align: center;
+  padding: 40px 0px 0px 0px;
+    
     font-size: 14px;
     opacity:0.6;
+    
 }
 
 /* 屏幕宽度大于762px */
@@ -35,20 +36,20 @@ hr{
   }
 
   .container-about {
-    width: 650px;
+    width: 600px;
     margin: auto;
     height: 400px;
   }
 
   .about-text {
-    padding: 20px 20px 20px 20px;
+    padding: 20px 0px 20px 0px;
     @apply opacity-80
   }
 
   #h2 {
     margin: 10px 0 10px 0;
     font-size: 48px;
-    font-weight: bold;
+    font-weight:bold;
     @apply opacity-100
   }
 
@@ -63,7 +64,7 @@ hr{
   }
 
   .container-about {
-    width: 90vw;
+    width: 80vw;
     margin: auto;
     height: 400px;
   }

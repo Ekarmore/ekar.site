@@ -6,13 +6,15 @@ export default defineConfig({
   // 添加Tailwindcss  
   // head: [
   //   ['link', { rel: 'stylesheet', href:'https://unpkg.com/tailwindcss@2.0.4/dist/tailwind.min.css' }]],
+  title:'YEKMAT',
   base: "/",
   lang: "en-US",
   description: "Vite & Vue powered static site generator.",
   themeConfig: {
     nav: [
       // { text: "前端", link: "前端/HTML" },
-      // { text: "About", link: "about/About" },
+      // { text: "Album", link: "about/About" },
+      { text: 'Album', link: 'pages/Album/Album' }
       // {
       //   text: '菜单',
       //   items: [
@@ -52,6 +54,10 @@ export default defineConfig({
     siteTitle: "Ekar",
     // siteTitle:false,
     // logo:'/Ekar.svg'
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/Ekarmore' },
+      // { icon: 'instagram', link: 'https://github.com/Ekarmore' },
+    ]
     
   },
   
