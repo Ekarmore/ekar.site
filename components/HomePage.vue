@@ -14,12 +14,12 @@
       </p>
 
       <p id="p1" class="about-text">
-        <span>
-          <a class="underline opacity-100 text-2xl hover:text-red-600 " href="">当你看到这段话时，说明我的网站已经部署成功了</a>
-        </span>
+        
       </p>
        
-        <div class="pt-10 pb-10 ">
+      <hr class="mt-5 mb-5 w-20 mx-auto"/>
+
+        <div class="pt-10  ">
  你可以在
         <a  class="link-foot" href="https://www.instagram.com/ekarmore/">Ins</a> 或
         <a  class="link-foot" href="https://space.bilibili.com/390593000">BiliBili</a> 找到我
@@ -28,7 +28,7 @@
        
        
 
-         <hr/>
+         
 
       <p id="p1" class="about-text">
       

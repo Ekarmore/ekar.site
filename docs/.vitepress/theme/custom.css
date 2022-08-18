@@ -1,27 +1,25 @@
 
 /* 桌面端移动端公共样式 */
-/* body{
-  user-select:none
-}   */
+body{
+  user-select:none;
+  margin:0;
+  padding:0;
+}  
 
+.container-home {
+display: flex;
+justify-content: center;
+}
 
 /* 游览器滚动条 */
 /* ::-webkit-scrollbar {
     display: none;
   } */
-hr{
-    width: 60px;
-    padding: 20px;
-    opacity: 0.6;
-    margin:auto;
-}
 .container-home {
     margin-bottom: 30px;
 }
 /* footer */
 .footer-list{
-  padding: 40px 0px 0px 0px;
-    
     font-size: 14px;
     opacity:0.6;
     
@@ -31,14 +29,13 @@ hr{
 @media (min-width: 762px) {
   /* HomePage组件 */
   .container-home {
+  height: auto;
     margin-top: 30px;
     padding: 16px;
   }
 
   .container-about {
-    width: 600px;
-    margin: auto;
-    height: 400px;
+    width: 40vw;
   }
 
   .about-text {
@@ -60,13 +57,13 @@ hr{
 @media (max-width: 762px) {
   /* HomePage组件 */
   .container-home {
+  
     margin-top: 30px;
   }
 
   .container-about {
     width: 80vw;
-    margin: auto;
-    height: 400px;
+
   }
 
   #h2 {
