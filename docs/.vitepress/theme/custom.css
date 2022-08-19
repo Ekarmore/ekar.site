@@ -19,6 +19,26 @@ display: flex;
 justify-content: center;
 }
 
+.piccard {
+  margin: 10px 10px 10px 10px;
+  position: relative;
+
+}
+
+.textcard {
+  color: white;
+  position: absolute;
+  font-size: 48px;
+  top: 50%;
+  left: 50%;
+  margin-top: -24px;
+  margin-left: -96px;
+}
+
+.imgcard {
+  width: 400px;
+}
+
 /* 游览器滚动条 */
 /* ::-webkit-scrollbar {
     display: none;
