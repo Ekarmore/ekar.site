@@ -1,5 +1,5 @@
-
 /* 桌面端移动端公共样式 */
+
 body{
 
   margin:0;
@@ -63,7 +63,7 @@ justify-content: center;
   }
 
   .container-about {
-  width:90%;
+  width:95vw;
   border:1px solid black;
   }
 

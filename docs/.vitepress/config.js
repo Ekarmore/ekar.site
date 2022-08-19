@@ -2,11 +2,12 @@ import { defineConfig } from "vitepress";
 
 export default defineConfig({
   // These are app level configs.
-  
-  // 添加Tailwindcss  
+
+  // 添加Tailwindcss
   // head: [
   //   ['link', { rel: 'stylesheet', href:'https://unpkg.com/tailwindcss@2.0.4/dist/tailwind.min.css' }]],
-  title:'YEKMAT',
+  title: "",
+  titleTemplate: "Ekar",
   base: "/",
   lang: "en-US",
   description: "Vite & Vue powered static site generator.",
@@ -14,7 +15,7 @@ export default defineConfig({
     nav: [
       // { text: "前端", link: "前端/HTML" },
       // { text: "Album", link: "about/About" },
-      { text: 'Album', link: 'pages/Album/Album' }
+      { text: "Work", link: "pages/Album/Work" },
       // {
       //   text: '菜单',
       //   items: [
@@ -28,37 +29,34 @@ export default defineConfig({
       "/前端/": [
         {
           text: "前端",
-          items:[
+          items: [
             {
-              text:'引言',
-              link:'/前端/HTML'
+              text: "引言",
+              link: "/前端/HTML",
             },
-            ],
-          collapsible: true
+          ],
+          collapsible: true,
         },
-       
       ],
       "/后端/": [
         {
           text: "前端",
-          items:[
+          items: [
             {
-              text:'引言',
-              link:'/前端/HTML'
+              text: "引言",
+              link: "/前端/HTML",
             },
-            ],
+          ],
         },
-       
       ],
     },
     siteTitle: "Ekar",
     // siteTitle:false,
     // logo:'/Ekar.svg'
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Ekarmore' },
+      { icon: "github", link: "https://github.com/Ekarmore" },
       // { icon: 'instagram', link: 'https://github.com/Ekarmore' },
-    ]
-    
+    ],
+    outlineTitle: "In hac pagina",
   },
-  
 });

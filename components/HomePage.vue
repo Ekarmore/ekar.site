@@ -10,7 +10,7 @@
         Hi,我是YEKMAT,一名前端开发爱好者.</p>
      
      <p id="p1" class="about-text">
-        我喜欢用编程的方式解决一些有趣的事情,目前在用技术栈为Vue3,Javascript/TypeScript,Unocss/Tailwindcss...
+        我喜欢用编程的方式解决一些有趣的事情,目前在用技术栈为Vue3,Javascript/TypeScript,Unocss/Tailwindcss 
       </p>
 
       <p id="p1" class="about-text">
@@ -25,11 +25,8 @@
         <a  class="link-foot" href="https://space.bilibili.com/390593000">BiliBili</a> 找到我
         或者 请发邮箱给我<a class="link-foot" href="mailto:Earthb0y@outlook.com">Earthb0y@outlook.com</a>
         </div> 
-       
-       
 
-         
-
+        
       <p id="p1" class="about-text">
       
       </p>
@@ -41,6 +38,10 @@
 
 <script>
 
+export default {
+
+
+}
 </script>
 
 <style>

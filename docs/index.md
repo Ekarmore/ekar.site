@@ -1,5 +1,6 @@
 ---
 layout: home
+title : 'Ekar'
 # hero:
 #   name: Ekar Lab
 #   text: Daily record
@@ -20,16 +21,7 @@ layout: home
 #     details: Lorem ipsum...
 ---
 
-<HomePage />
+<HomePage/>
 
+ <!-- 页脚注释 -->
 
-<style>
-
-h1{
-padding:128px;
-font-size:64px
-
-}
-
-
-</style>
