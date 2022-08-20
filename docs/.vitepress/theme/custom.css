@@ -1,102 +1,57 @@
 /* 桌面端移动端公共样式 */
-
-body{
-
-  margin:0;
-  padding:0;
-}  
-
-hr{
-
-width: 60px;
-margin: auto;
-margin-top:40px;
-
-
-}
-.container-home {
-display: flex;
-justify-content: center;
-}
-
-.piccard {
-  margin: 10px 10px 10px 10px;
-  position: relative;
-
-}
-
-.textcard {
-  color: white;
-  position: absolute;
-  font-size: 48px;
-  top: 50%;
-  left: 50%;
-  margin-top: -24px;
-  margin-left: -96px;
-}
-
-.imgcard {
-  width: 400px;
-}
-
 /* 游览器滚动条 */
 /* ::-webkit-scrollbar {
     display: none;
   } */
+body {
+  @apply m-0 p-0;
+}
+hr {
+  @apply opacity-80 w-10 mx-auto mt-10 mb-10;
+}
+.container-home {
+  @apply flex justify-center;
+}
+.piccard {
+  @apply relative m-10;
+}
+.textcard {
+  @apply text-white absolute inset-1/2;
+}
+.imgcard {
+  @apply w-20;
+}
+.catalog {
+  @apply flex justify-center flex-wrap justify-items-center w-4/5 mx-auto mt-10;
+}
 
 /* footer */
-.footer-list{
-    font-size: 14px;
-    opacity:0.6;
-    
+.footer-list {
+  @apply text-sm opacity-70;
 }
 
-/* 屏幕宽度大于762px */
-@media (min-width: 762px) {
-  /* HomePage组件 */
-
-
-  .container-about {
-    width: 40vw;
-  }
-
-  .about-text {
-    padding: 20px 0px 20px 0px;
-    @apply opacity-80
-  }
-
-  #h2 {
-    margin: 10px 0 10px 0;
-    font-size: 48px;
-    font-weight:bold;
-    @apply opacity-100
-  }
-
-
+.container-about {
+  @apply w-5/6 md:w-2/5;
 }
 
-/* 屏幕宽度小于762px */
-@media (max-width: 762px) {
-  /* HomePage组件 */
-  .container-home {
-    margin-top: 30px;
-  }
+.about-text {
+  @apply opacity-80 pt-10 pb-10;
+}
 
-  .container-about {
-  width:95vw;
-  border:1px solid black;
-  }
+#h2 {
+  @apply opacity-100 text-4xl font-medium pt-1 pb-1 mt-10;
+}
 
-  #h2 {
-    border:1px solid black;
-    font-size: 32px;
-    font-weight: bold;
-    padding: 20px 0 20px 0;
-  }
+.link-foot {
+  @apply rounded-b-none border-gray-400 md:rounded-b-none border-gray-300 border-b  hover:border-gray-600 transition-all duration-300;
+}
 
-  #p1 {
-    border:1px solid black;
-    padding: 30px 0px 10px 0px;
-    opacity: 0.7;
-  }
+.footer-list {
+  @apply text-center  sm:text-left;
+}
+/* HomePage组件 */
+
+#p1 {
+  padding: 30px 0px 10px 0px;
+  opacity: 0.7;
 }

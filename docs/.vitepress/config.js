@@ -15,7 +15,7 @@ export default defineConfig({
     nav: [
       // { text: "前端", link: "前端/HTML" },
       // { text: "Album", link: "about/About" },
-      { text: "Work", link: "pages/Album/Work" },
+      // { text: "Work", link: "pages/Album/Work" },
       // {
       //   text: '菜单',
       //   items: [
