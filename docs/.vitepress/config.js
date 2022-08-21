@@ -16,6 +16,7 @@ export default defineConfig({
       // { text: "前端", link: "前端/HTML" },
       // { text: "Album", link: "about/About" },
       // { text: "Work", link: "pages/Album/Work" },
+         { text: "Earth", link: "pages/Earth/Earth" },
       // {
       //   text: '菜单',
       //   items: [

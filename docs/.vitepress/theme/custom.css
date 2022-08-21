@@ -4,13 +4,16 @@
     display: none;
   } */
 body {
-  @apply m-0 p-0;
+  @apply break-all m-0 p-0 md:m-0 md:p-0;
 }
 hr {
   @apply opacity-80 w-10 mx-auto mt-10 mb-10;
 }
 .container-home {
-  @apply flex justify-center;
+  @apply flex justify-center
+}
+.container-about {
+@apply w-5/6  md:w-2/5;
 }
 .piccard {
   @apply relative m-10;
@@ -30,12 +33,9 @@ hr {
   @apply text-sm opacity-70;
 }
 
-.container-about {
-  @apply w-5/6 md:w-2/5;
-}
 
 .about-text {
-  @apply opacity-80 pt-10 pb-10;
+  @apply opacity-80 pt-10 pb-1;
 }
 
 #h2 {
@@ -43,15 +43,18 @@ hr {
 }
 
 .link-foot {
-  @apply rounded-b-none border-gray-400 md:rounded-b-none border-gray-300 border-b  hover:border-gray-600 transition-all duration-300;
+  @apply rounded-b-none border-b border-gray-400 md:rounded-b-none md:border-gray-300 md:border-b  hover:border-gray-600 transition-all duration-300;
 }
 
 .footer-list {
   @apply text-center  sm:text-left;
 }
-/* HomePage组件 */
 
-#p1 {
-  padding: 30px 0px 10px 0px;
-  opacity: 0.7;
+
+.earthContainer{
+@apply relative overflow-hidden h-96 w-96 bg-black mx-auto rounded-full mt-20
+}
+.earth{
+width:1000px;
+@apply absolute h-96 -left-80 ml-3 mt-2 
 }
