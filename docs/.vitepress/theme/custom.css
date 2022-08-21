@@ -13,7 +13,8 @@ hr {
   @apply flex justify-center
 }
 .container-about {
-@apply w-5/6  md:w-2/5;
+@apply w-11/12  md:border-current md:border-2 pb-10 pl-2 mt-10 
+ md:w-2/5 md:pl-10;
 }
 .piccard {
   @apply relative m-10;
@@ -30,7 +31,7 @@ hr {
 
 /* footer */
 .footer-list {
-  @apply text-sm opacity-70;
+  @apply text-sm opacity-70 mt-10;
 }
 
 
@@ -52,9 +53,11 @@ hr {
 
 
 .earthContainer{
-@apply relative overflow-hidden h-96 w-96 bg-black mx-auto rounded-full mt-20
+height:600px;
+@apply  w-5/6 mx-auto mt-20 p-1
 }
 .earth{
-width:1000px;
-@apply absolute h-96 -left-80 ml-3 mt-2 
+@apply  w-full h-full rounded-3xl
 }
+
+

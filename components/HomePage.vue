@@ -16,11 +16,8 @@
       <p>
         Vue3,Javascript/TypeScript,Unocss/Tailwindcss
       </p>    
-      <p id="p1" class="about-text">
 
-      </p>
-
-      <hr />
+      <hr/>
 
       <div class="link-box">
         你可以在
