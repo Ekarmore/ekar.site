@@ -54,10 +54,12 @@ hr {
 
 .earthContainer{
 height:600px;
-@apply  w-5/6 mx-auto mt-20 p-1
+@apply  w-11/12  md:w-5/6 mx-auto mt-5 m-5 p-1
 }
 .earth{
 @apply  w-full h-full rounded-3xl
 }
 
-
+.e-title{
+  @apply text-center mt-10 mb-10 text-xl
+}

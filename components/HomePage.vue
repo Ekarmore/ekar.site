@@ -22,9 +22,9 @@
       <div class="link-box">
         你可以在
         <a class="link-foot" href="https://www.instagram.com/ekarmore/">Ins</a> 或
-        <a class="link-foot" href="https://space.bilibili.com/390593000">BiliBili</a>找到我
-        或者 <br/>
-        请发邮件给我 <a class="link-foot" href="mailto:Earthb0y@outlook.com">Earthb0y@outlook.com</a>
+        <a class="link-foot" href="https://space.bilibili.com/390593000">BiliBili</a> 以及 <a class="link-foot" href="https://github.com/Ekarmore">Github</a> 找到我
+       <br/> 
+         或者 请发邮件给我 <a class="link-foot" href="mailto:Earthb0y@outlook.com">Earthb0y@outlook.com</a>
       </div>
       <!-- 页脚注释 -->
       <p id="p1" class="footer-list">Copyright © 2022-present YEKMAT</p>
