@@ -13,7 +13,7 @@ hr {
   @apply flex justify-center
 }
 .container-about {
-@apply w-11/12  md:border-current md:border-2 pb-10 pl-2 mt-10 
+@apply w-11/12  md:border-current md:border pb-10 pl-2 mt-10 
  md:w-2/5 md:pl-10;
 }
 .piccard {
@@ -61,5 +61,12 @@ height:600px;
 }
 
 .e-title{
-  @apply text-center mt-10 mb-10 text-xl
+  @apply text-center mt-10 mb-10 text-3xl font-bold
 }
+.loveBox{
+  @apply w-1/2 mx-auto mt-20
+  }
+  
+.love{
+  font-size: 48px;
+  }

@@ -1,6 +1,6 @@
 <template>
 
-   <p class="e-title">Our Home .</p> 
+<p class="e-title">Our beautiful and only home .</p> 
     <div class="earthContainer">
      <iframe class="earth" src='https://my.spline.design/untitled-8a64435d8d1f4464359768064ccb15cb/' ></iframe>
       </div>
@@ -10,3 +10,15 @@
 <script>
 export default {};
 </script>
+
+<style>
+
+.blurBox{
+@apply filter blur-xl absolute bg-red-300
+
+}
+.blurText{
+    @apply absolute
+}
+
+</style>

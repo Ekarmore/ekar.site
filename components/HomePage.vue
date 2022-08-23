@@ -20,7 +20,7 @@
       <hr/>
 
       <div class="link-box">
-        你可以在
+        当然,你也可以在
         <a class="link-foot" href="https://www.instagram.com/ekarmore/">Ins</a> 或
         <a class="link-foot" href="https://space.bilibili.com/390593000">BiliBili</a> 以及 <a class="link-foot" href="https://github.com/Ekarmore">Github</a> 找到我
        <br/> 

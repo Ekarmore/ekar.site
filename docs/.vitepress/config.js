@@ -17,6 +17,7 @@ export default defineConfig({
       // { text: "Album", link: "about/About" },
       // { text: "Work", link: "pages/Album/Work" },
          { text: "Earth", link: "pages/Earth/Earth" },
+        //  { text: "Love", link: "pages/aboutLove/Love" },
       // {
       //   text: '菜单',
       //   items: [

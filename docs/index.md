@@ -1,6 +1,6 @@
 ---
 layout: home
-title : 'Ekar'
+title : 'YEKMAT'
 # hero:
 #   name: Ekar Lab
 #   text: Daily record
