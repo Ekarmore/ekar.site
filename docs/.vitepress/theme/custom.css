@@ -8,8 +8,11 @@ body {
 }
 
 /* HomePage */
+#h2{
+@apply mb-5
+}
 .hr-home {
-  @apply opacity-80 w-10 mx-auto mt-10 mb-10;
+  @apply opacity-80 w-10 mx-auto mt-5 mb-10;
 }
 .container-home {
   @apply flex justify-center
@@ -32,26 +35,26 @@ body {
 }
 
 .about-text {
-  @apply opacity-80 pt-5 ml-10 pb-1;
+  @apply opacity-80 pt-5 md:ml-10 pb-5;
 }
 /* footer */
 .footer-list {
-  @apply text-sm opacity-70 mt-10;
+  @apply text-sm text-center opacity-70 md:mt-10;
 }
 
 
 #h2 {
-  @apply opacity-100 text-4xl font-medium  pt-1 pb-1 mt-10;
+  @apply opacity-100 text-4xl font-medium  pt-1 pb-1 mt-5;
 }
 
 .link-foot {
   @apply rounded-b-none border-b border-current border-opacity-50 md:rounded-b-none md:border-gray-300 md:border-b  hover:border-current transition-all duration-300;
 }
 .link-box{
-  @apply pl-10
+  @apply md:pl-10
 }
 .footer-list {
-  @apply text-center  md:text-left md:mt-10 md:ml-10;
+  @apply text-center  md:text-left mt-10 md:ml-10;
 }
 
 /* Earth */
