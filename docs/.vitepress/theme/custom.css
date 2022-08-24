@@ -6,7 +6,6 @@
 body {
   @apply break-all m-0 p-0 md:m-0 md:p-0;
 }
-
 /* HomePage */
 #h2{
 @apply mb-5
@@ -18,7 +17,7 @@ body {
   @apply flex justify-center
 }
 .container-about {
-@apply w-11/12  md:border-current md:border pb-10  mt-10 
+@apply w-10/12  md:border-current md:border pb-10  mt-10 
  md:w-2/5;
 }
 .piccard {
@@ -33,9 +32,8 @@ body {
 .catalog {
   @apply flex justify-center flex-wrap justify-items-center w-4/5 mx-auto mt-10;
 }
-
 .about-text {
-  @apply opacity-80 pt-5 md:ml-10 pb-5;
+  @apply pt-5 md:ml-10 ;
 }
 /* footer */
 .footer-list {
