@@ -6,26 +6,29 @@
 body {
   @apply break-all m-0 p-0 md:m-0 md:p-0;
 }
-
-/* .VPNavBar{
+/* 
+.VPNavBar{
 border-bottom:0px !important;
 padding-left:32px !important;
 padding-right: 32px !important;
+padding-top: 8px !important;
 } */
 
 /* HomePage */
-#h2{
-@apply mb-5
+#YEKMAT{
+@apply mb-5 font-medium text-4xl
 }
 .hr-home {
   @apply opacity-80 w-10 mx-auto mt-10 mb-10;
 }
 .container-home {
-  @apply flex justify-center
+  @apply flex justify-center 
 }
 .container-about {
-@apply w-10/12  md:border-current md:border pb-10  mt-10 
- md:w-2/5;
+@apply w-10/12  pb-10 mt-10 md:w-4/5 lg:w-2/4;
+}
+.about-text-1{
+@apply border-b hover:border-current transition-all duration-300
 }
 .piccard {
   @apply relative m-10;
@@ -53,7 +56,7 @@ padding-right: 32px !important;
 }
 
 .link-foot {
-  @apply rounded-b-none border-b border-current border-opacity-50 md:rounded-b-none md:border-gray-300 md:border-b  hover:border-current transition-all duration-300;
+  @apply rounded-b border-b md:rounded-b-none md:border-gray-300 md:border-b  hover:border-current transition-all duration-300;
 }
 .link-box{
   @apply md:pl-10

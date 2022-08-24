@@ -16,7 +16,7 @@ export default defineConfig({
       // { text: "前端", link: "前端/HTML" },
       // { text: "Album", link: "about/About" },
       // { text: "Work", link: "pages/Album/Work" },
-         { text: "Earth", link: "pages/Earth/Earth" },
+        //  { text: "Earth", link: "pages/Earth/Earth" },
         //  { text: "Love", link: "pages/aboutLove/Love" },
       // {
       //   text: '菜单',
@@ -56,7 +56,7 @@ export default defineConfig({
     // siteTitle:false,
     // logo:'/Ekar.svg'
     socialLinks: [
-      { icon: "github", link: "https://github.com/Ekarmore" },
+      // { icon: "github", link: "https://github.com/Ekarmore" },
       // { icon: 'instagram', link: 'https://github.com/Ekarmore' },
     ],
     outlineTitle: "In hac pagina",
