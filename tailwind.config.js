@@ -11,4 +11,5 @@ module.exports = {
       safelist: ['html', 'body'],
     },
   },
+  important: true,
 }
