@@ -1,20 +1,22 @@
 /* 桌面端移动端公共样式 */
 /* 游览器滚动条 */
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
     display: none;
-  } */
+  }
 body {
   @apply break-all m-0 p-0 md:m-0 md:p-0;
 }
-hr {
+
+/* HomePage */
+.hr-home {
   @apply opacity-80 w-10 mx-auto mt-10 mb-10;
 }
 .container-home {
   @apply flex justify-center
 }
 .container-about {
-@apply w-11/12  md:border-current md:border pb-10 pl-2 mt-10 
- md:w-2/5 md:pl-10;
+@apply w-11/12  md:border-current md:border pb-10  mt-10 
+ md:w-2/5;
 }
 .piccard {
   @apply relative m-10;
@@ -29,39 +31,40 @@ hr {
   @apply flex justify-center flex-wrap justify-items-center w-4/5 mx-auto mt-10;
 }
 
+.about-text {
+  @apply opacity-80 pt-5 ml-10 pb-1;
+}
 /* footer */
 .footer-list {
   @apply text-sm opacity-70 mt-10;
 }
 
 
-.about-text {
-  @apply opacity-80 pt-10 pb-1;
-}
-
 #h2 {
-  @apply opacity-100 text-4xl font-medium pt-1 pb-1 mt-10;
+  @apply opacity-100 text-4xl font-medium  pt-1 pb-1 mt-10;
 }
 
 .link-foot {
-  @apply rounded-b-none border-b border-gray-400 md:rounded-b-none md:border-gray-300 md:border-b  hover:border-gray-600 transition-all duration-300;
+  @apply rounded-b-none border-b border-current border-opacity-50 md:rounded-b-none md:border-gray-300 md:border-b  hover:border-current transition-all duration-300;
 }
-
+.link-box{
+  @apply pl-10
+}
 .footer-list {
-  @apply text-center  sm:text-left;
+  @apply text-center  md:text-left md:mt-10 md:ml-10;
 }
 
-
+/* Earth */
 .earthContainer{
 height:600px;
-@apply  w-11/12  md:w-5/6 mx-auto mt-5 m-5 p-1
+@apply  w-11/12 md:w-5/6 mx-auto mt-5 m-5 p-1  
 }
 .earth{
-@apply  w-full h-full rounded-3xl
+@apply  w-full h-4/5 rounded-3xl
 }
 
 .e-title{
-  @apply text-center mt-10 mb-10 text-3xl font-bold
+  @apply text-center mt-10 mb-10 text-xl font-bold md:text-3xl
 }
 .loveBox{
   @apply w-1/2 mx-auto mt-20

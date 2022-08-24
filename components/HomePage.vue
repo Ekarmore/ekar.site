@@ -13,11 +13,11 @@
       <p id="p1" class="about-text">
         我喜欢用编程的方式解决一些有趣的事情,目前在用技术栈为
       </p>
-      <p>
+      <p class="about-text">
         Vue3,Javascript/TypeScript,Unocss/Tailwindcss
       </p>    
 
-      <hr/>
+      <hr class="hr-home"/>
 
       <div class="link-box">
         当然,你也可以在
