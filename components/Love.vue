@@ -38,8 +38,6 @@
 
 <script>
 import { reactive, ref } from "vue";
-import { get } from "lodash";
-import loading from "naive-ui/es/_internal/loading";
 export default {
   setup() {
     let themee = ref("深色");
@@ -116,8 +114,6 @@ export default {
       name,
       changeInfo,
       job,
-      darkTheme,
-      theme,
       changeDrak,
       themee,
       getDates,
