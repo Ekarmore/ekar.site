@@ -7,7 +7,7 @@ body {
   @apply break-all m-0 p-0 md:m-0 md:p-0;
 }
 .VPNavBar[data-v-5989c3b2]{
-@apply border-b-0 pl-10 pr-10 pt-5 !important;
+@apply border-b-0 !important pl-10 !important pr-10 !important pt-5 !important;
 }
 /* HomePage */
 #h2{
