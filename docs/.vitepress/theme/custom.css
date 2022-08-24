@@ -6,13 +6,13 @@
 body {
   @apply break-all m-0 p-0 md:m-0 md:p-0;
 }
-.VPNavBar{
-/* @apply border-b-0 !important p-10 !important md:p-0 !important; */
+
+/* .VPNavBar{
 border-bottom:0px !important;
 padding-left:32px !important;
 padding-right: 32px !important;
+} */
 
-}
 /* HomePage */
 #h2{
 @apply mb-5
