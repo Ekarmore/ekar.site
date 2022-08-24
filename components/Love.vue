@@ -1,13 +1,4 @@
 <template>
-  <!-- <n-layout-header class="nheader">
-        <div class="cardone" style="height: 60px; margin-bottom: 20px">
-          <p class="head-text">Love Book 📖</p>
-          <n-button strong secondary class="btn" @click="changeDrak">{{
-              themee
-          }}</n-button>
-        </div>
-      </n-layout-header> -->
-
   <div class="pt-10 pb-20 m-5 rounded-xl border-dashed border">
     <div class="w-auto p-5 mx-auto">
       <p class="animate-bounce text-4xl text-center p-10">❤️</p>
@@ -47,7 +38,6 @@
 
 <script>
 import { reactive, ref } from "vue";
-import { darkTheme } from "naive-ui";
 import { get } from "lodash";
 import loading from "naive-ui/es/_internal/loading";
 export default {
