@@ -9,8 +9,8 @@ body {
 .VPNavBar{
 /* @apply border-b-0 !important p-10 !important md:p-0 !important; */
 border-bottom:0px !important;
-padding-left:40px !important;
-padding-right: 40px !important;
+padding-left:32px !important;
+padding-right: 32px !important;
 
 }
 /* HomePage */
