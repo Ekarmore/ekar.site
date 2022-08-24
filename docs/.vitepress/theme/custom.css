@@ -6,12 +6,15 @@
 body {
   @apply break-all m-0 p-0 md:m-0 md:p-0;
 }
+.VPNavBar[data-v-5989c3b2]{
+@apply border-b-0 pl-10 pr-10 pt-5 !important;
+}
 /* HomePage */
 #h2{
 @apply mb-5
 }
 .hr-home {
-  @apply opacity-80 w-10 mx-auto mt-5 mb-10;
+  @apply opacity-80 w-10 mx-auto mt-10 mb-10;
 }
 .container-home {
   @apply flex justify-center
