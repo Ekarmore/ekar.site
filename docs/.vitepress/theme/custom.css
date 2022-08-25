@@ -16,7 +16,7 @@ padding-top: 8px !important;
 
 /* HomePage */
 #YEKMAT{
-@apply mb-5 font-medium text-4xl
+@apply mb-5 font-light italic text-4xl
 }
 .hr-home {
   @apply opacity-80 w-10 mx-auto mt-10 mb-10;
@@ -28,7 +28,7 @@ padding-top: 8px !important;
 @apply w-10/12  pb-10 mt-10 md:w-4/5 lg:w-2/4;
 }
 .about-text-1{
-@apply border-b hover:border-current transition-all duration-300
+@apply border-b  hover:border-current transition-all duration-300
 }
 .piccard {
   @apply relative m-10;
