@@ -1,6 +1,6 @@
 ---
 layout: home
-title : 'YEKMAT'
+title : 'About Ekar'
 # hero:
 #   name: Ekar Lab
 #   text: Daily record
@@ -21,7 +21,7 @@ title : 'YEKMAT'
 #     details: Lorem ipsum...
 ---
 
-<!-- <HomePage/> -->
-<Love/>
+<HomePage/>
+<!-- <Love/> -->
  <!-- 页脚注释 -->
 

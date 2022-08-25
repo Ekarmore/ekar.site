@@ -33,7 +33,7 @@
       <p id="p1" class="footer-list">Copyright © 2022-present YEKMAT</p>
     </div>
   </div>
-  <love/>
+  <!-- <love/> -->
 </template>
 
 <script>

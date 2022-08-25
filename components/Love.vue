@@ -30,7 +30,6 @@
         >,也就是<span class="font-bold">{{ getDates.Diisday }}</span
         >天!
       </p>
-      <p>我</p>
     </div>
   </div>
   <!-- / // -->
