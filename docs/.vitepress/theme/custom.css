@@ -56,7 +56,7 @@ padding-top: 8px !important;
 }
 
 .link-foot {
-  @apply rounded-b border-b md:rounded-b-none md:border-gray-300 md:border-b  hover:border-current transition-all duration-300;
+  @apply  border-b rounded-b-none md:border-gray-300 md:border-b  hover:border-current transition-all duration-300;
 }
 .footer-list {
   @apply text-center mt-10 md:text-left ;
