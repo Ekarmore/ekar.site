@@ -1,19 +1,21 @@
 <template>
 
-  <div class="container-home">
+  <article class="container-home">
     <!-- <navbar/> -->
     <!-- <cursor/> -->
     <!-- 介绍容器 -->
+
+
     <div class="container-about">
       <p id="YEKMAT" class="about-text">Ekar</p>
 
       <p id="p1" class="about-text">
         Hi,我是YEKMAT,一名<a href="https:www.baidu.com" class="about-text-1">前端开发爱好者</a>,<a href="https:www.baidu.com"
-          class="about-text-1">自由摄影师</a>以及<a href="https:www.baidu.com"
-          class="about-text-1">平面设计师.</a></p>
+          class="about-text-1">自由摄影师</a>以及<a href="https:www.baidu.com" class="about-text-1">平面设计师.</a></p>
 
       <p id="p1" class="about-text">
-        我开始喜欢上编程并开始学习前端试图用编程的方式实现一些有趣的想法,这个网站的实现是其中之一.
+        我开始喜欢上编程并开始学习前端试图用编程的方式实现一些有趣的想法,这个网站的实现是其中之一,我在这里收录了一些关于<a class="about-text-1" href="">前端</a>,<a
+          class="about-text-1" href="">摄影</a>以及<a class="about-text-1" href="">平面设计</a>
       </p>
       <p class="about-text">
         Vue3,Javascript/TypeScript,Unocss/Tailwindcss
@@ -32,7 +34,7 @@
       <!-- 页脚注释 -->
       <p id="p1" class="footer-list">Copyright © 2022-present YEKMAT</p>
     </div>
-  </div>
+  </article>
   <!-- <love/> -->
 </template>
 

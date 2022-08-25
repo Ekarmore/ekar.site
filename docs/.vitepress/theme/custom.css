@@ -16,16 +16,16 @@ padding-top: 8px !important;
 
 /* HomePage */
 #YEKMAT{
-@apply mb-5 font-light italic text-4xl
+@apply mb-5 font-normal text-4xl
 }
 .hr-home {
-  @apply opacity-80 w-10 mx-auto mt-10 mb-10;
+  @apply opacity-80 w-10 mx-auto mt-10 mb-10 ; 
 }
 .container-home {
   @apply flex justify-center 
 }
 .container-about {
-@apply w-10/12  pb-10 mt-10 md:w-4/5 lg:w-2/4;
+@apply w-10/12 mx-auto pb-10 mt-10  md:w-3/5 lg:w-2/5  leading-7
 }
 .about-text-1{
 @apply border-b  hover:border-current transition-all duration-300
@@ -43,7 +43,7 @@ padding-top: 8px !important;
   @apply flex justify-center flex-wrap justify-items-center w-4/5 mx-auto mt-10;
 }
 .about-text {
-  @apply pt-5 md:ml-10 ;
+  @apply pt-5  ;
 }
 /* footer */
 .footer-list {
@@ -58,11 +58,8 @@ padding-top: 8px !important;
 .link-foot {
   @apply rounded-b border-b md:rounded-b-none md:border-gray-300 md:border-b  hover:border-current transition-all duration-300;
 }
-.link-box{
-  @apply md:pl-10
-}
 .footer-list {
-  @apply text-center  md:text-left mt-10 md:ml-10;
+  @apply text-center mt-10 md:text-left ;
 }
 
 /* Earth */
