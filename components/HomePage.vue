@@ -17,10 +17,7 @@
         我开始喜欢上编程并开始学习前端试图用编程的方式实现一些有趣的想法,这个网站的实现是其中之一,我在这里收录了一些关于<a class="about-text-1" href="">前端</a>,<a
           class="about-text-1" href="">摄影</a>以及<a class="about-text-1" href="">平面设计</a>
       </p>
-      <p class="about-text">
-        Vue3,Javascript/TypeScript,Unocss/Tailwindcss
-      </p>
-
+      
       <hr class="hr-home" />
 
       <div class="link-box">
