@@ -7,7 +7,7 @@
 
 
     <div class="container-about">
-      <p id="YEKMAT" class="about-text">About Ekar</p>
+      <p id="YEKMAT" class="about-text">Ekar</p>
       <!-- <img class="site-logo" src="/Ekar.png" alt=""> -->
       <p id="p1" class="about-text">
         Hey,我叫YEKMAT,来自蓝色星球某一处的氧气呼吸者,心脏跳动者,<a href="https:www.baidu.com" class="about-text-1">前端开发爱好者</a>,<a href="https:www.baidu.com"
@@ -28,7 +28,7 @@
         <br />
         或者 请发邮件给我 <a class="link-foot" href="mailto:Earthb0y@outlook.com">Earthb0y@outlook.com</a>
         <br/>
-        最后,祝你度过完美的一天!
+        <p class="about-text">最后,祝你度过完美的一天!</p> 
       </div>
       <p id="p1" class="footer-list">Copyright © 2022-present YEKMAT</p>
     </div>

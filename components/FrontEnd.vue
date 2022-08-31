@@ -57,7 +57,7 @@ export default {};
     @apply  w-36 mx-auto mt-10  flex flex-col-reverse   items-center justify-center h-96 bg-red-200
     }
     .des-catalog{
-    @apply flex justify-between  mx-auto mt-10 flex-col-reverse
+    @apply flex justify-between  mx-auto  flex-col-reverse
     }
     .des-container{
      @apply xl:w-2/5 mx-auto 
