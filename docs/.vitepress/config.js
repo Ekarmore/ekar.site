@@ -59,6 +59,6 @@ export default defineConfig({
       { icon: "github", link: "https://github.com/Ekarmore" },
       // { icon: 'instagram', link: 'https://github.com/Ekarmore' },
     ],
-    outlineTitle: "In hac pagina",
+    // outlineTitle: "In hac pagina",
   },
 });
