@@ -22,6 +22,3 @@ title : 'About Ekar'
 ---
 
 <HomePage/>
-<!-- <Love/> -->
- <!-- 页脚注释 -->
-
