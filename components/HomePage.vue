@@ -15,7 +15,7 @@
       <p class="about-text">同时我还很喜欢拍照,如果你也视一些独特的光景为珍宝或仅仅是喜欢拍照,也可以来我的<a class="about-text-1"
           href="">摄影个站</a>看看我在做的一些摄影项目,谈谈你的感受亦或是由于志同道合成为好友,一起讨论摄影和参与一些摄影社群活动
       </p>
-      <p class="about-text">最后,祝你度过完美的一天,再见</p>
+      <p class="about-text">祝你度过完美的一天,再见</p>
       <hr class="hr-home" />
 
       <div class="link-box">
