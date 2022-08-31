@@ -49,7 +49,7 @@ padding-top: 8px !important;
   @apply  border-b rounded-b-none md:border-gray-300 md:border-b  hover:border-current transition-all duration-300;
 }
 .footer-list {
-  @apply text-center mt-10 md:text-left ;
+  @apply  mt-10 text-left ;
 }
 
 /* Earth */
