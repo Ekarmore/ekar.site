@@ -27,13 +27,13 @@ padding-top: 8px !important;
 @apply mb-10 w-full
 }
 .container-home {
-  @apply flex justify-center mt-0 md:mt-10 2xl:mt-20 
+  @apply flex justify-center mt-0 md:mt-0 2xl:mt-20 tracking-wide
 }
 .container-about {
 @apply w-10/12 mx-auto pb-10 mt-10  md:w-3/5 lg:w-2/5  leading-7 
 }
 .about-text-1{
-@apply border-b  hover:border-current transition-all duration-300
+@apply border-b border-gray-300 hover:border-current transition-all duration-300
 }
 
 .about-text {
