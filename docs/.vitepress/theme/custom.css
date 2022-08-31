@@ -16,7 +16,7 @@ padding-top: 8px !important;
 
 /* HomePage */
 #YEKMAT{
-@apply font-semibold text-4xl
+@apply  font-extrabold text-5xl
 }
 .hr-home {
   @apply opacity-80 w-10 mx-auto mt-10 mb-10 ; 
@@ -28,23 +28,12 @@ padding-top: 8px !important;
   @apply flex justify-center md:mt-10 2xl:mt-20 
 }
 .container-about {
-@apply w-10/12 mx-auto pb-10 mt-10  md:w-3/5 lg:w-2/5  leading-7
+@apply w-10/12 mx-auto pb-10 mt-10  md:w-3/5 lg:w-2/5  leading-7 
 }
 .about-text-1{
 @apply border-b  hover:border-current transition-all duration-300
 }
-.piccard {
-  @apply relative m-10;
-}
-.textcard {
-  @apply text-white absolute inset-1/2;
-}
-.imgcard {
-  @apply w-20;
-}
-.catalog {
-  @apply flex justify-center flex-wrap justify-items-center w-4/5 mx-auto mt-10;
-}
+
 .about-text {
   @apply pt-5  ;
 }

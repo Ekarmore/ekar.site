@@ -7,8 +7,9 @@
 
 
     <div class="container-about">
-      <p id="YEKMAT" class="about-text">Ekar</p>
+      <p id="YEKMAT" class="about-text">About Ekar</p>
       <!-- <img class="site-logo" src="/Ekar.png" alt=""> -->
+      <p id="p1" class="about-text">蓝色星球的呼吸者</p>
       <p id="p1" class="about-text">
         Hi,我是YEKMAT,一名<a href="https:www.baidu.com" class="about-text-1">前端开发爱好者</a>,<a href="https:www.baidu.com"
           class="about-text-1">自由摄影师</a>以及<a href="https:www.baidu.com" class="about-text-1">平面设计师.</a></p>
@@ -27,8 +28,9 @@
           href="https://github.com/Ekarmore">Github</a> 找到我
         <br />
         或者 请发邮件给我 <a class="link-foot" href="mailto:Earthb0y@outlook.com">Earthb0y@outlook.com</a>
+        <br/>
+        回见,祝你度过完美的一天!
       </div>
-      <!-- 页脚注释 -->
       <p id="p1" class="footer-list">Copyright © 2022-present YEKMAT</p>
     </div>
   </article>
