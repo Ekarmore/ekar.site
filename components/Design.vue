@@ -53,7 +53,7 @@ export default {};
      @apply text-3xl xl:text-3xl  mt-10  font-extrabold
     }
     .des-link{
-    @apply  text-sm  xl:text-lg  border-l border-gray-400 border-opacity-40 p-1 pl-3 xl:mt-5 hover:border-opacity-100 duration-500 ease-in-out 
+    @apply  text-sm  xl:text-lg  border-l border-gray-400 border-opacity-40 p-1 pl-3 xl:mt-5 hover:border-opacity-100  duration-500 ease-in-out 
     }
    .des-menu{
     @apply  w-36 mx-auto mt-10  flex flex-col-reverse   items-center justify-center h-96 bg-red-200
