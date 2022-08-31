@@ -22,7 +22,7 @@ padding-top: 8px !important;
   @apply opacity-80 w-10 mx-auto mt-10 mb-10 ; 
 }
 .site-logo{
-@apply mb-10
+@apply mb-10 w-full
 }
 .container-home {
   @apply flex justify-center md:mt-10 2xl:mt-20 

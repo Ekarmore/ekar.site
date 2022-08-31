@@ -7,8 +7,8 @@
 
 
     <div class="container-about">
-      <!-- <p id="YEKMAT" class="about-text">Ekar</p> -->
-      <img class="site-logo" src="/Ekar.png" alt="">
+      <p id="YEKMAT" class="about-text">Ekar</p>
+      <!-- <img class="site-logo" src="/Ekar.png" alt=""> -->
       <p id="p1" class="about-text">
         Hi,我是YEKMAT,一名<a href="https:www.baidu.com" class="about-text-1">前端开发爱好者</a>,<a href="https:www.baidu.com"
           class="about-text-1">自由摄影师</a>以及<a href="https:www.baidu.com" class="about-text-1">平面设计师.</a></p>
