@@ -28,7 +28,7 @@
         <br />
         或者 请发邮件给我 <a class="link-foot" href="mailto:Earthb0y@outlook.com">Earthb0y@outlook.com</a>
         <br/>
-        回见,祝你度过完美的一天!
+        最后,祝你度过完美的一天!
       </div>
       <p id="p1" class="footer-list">Copyright © 2022-present YEKMAT</p>
     </div>
