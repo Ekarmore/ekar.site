@@ -15,7 +15,7 @@
       <p class="about-text">同时我还很喜欢拍照,如果你也视一些独特的光景为珍宝或仅仅是喜欢拍照,也可以来我的<a class="about-text-1"
           href="">摄影个站</a>看看我在做的一些摄影项目,谈谈你的感受亦或是由于志同道合成为好友,一起讨论摄影和参与一些摄影社群活动
       </p>
-
+      <p class="about-text">最后,祝你度过完美的一天</p>
       <hr class="hr-home" />
 
       <div class="link-box">
@@ -26,7 +26,6 @@
         <br />
         当然,你可以通过邮件与我联系 <a class="link-foot" href="mailto:Earthb0y@outlook.com">Earthb0y@outlook.com</a>
         <br />
-        <p class="about-text">最后,祝你度过完美的一天</p>
       </div>
       <p id="p1" class="footer-list">Copyright © 2022-present YEKMAT</p>
     </div>

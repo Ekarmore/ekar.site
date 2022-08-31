@@ -27,7 +27,7 @@ padding-top: 8px !important;
 @apply mb-10 w-full
 }
 .container-home {
-  @apply flex justify-center mt-0 md:mt-10 2xl:mt-20  bg-yellow-400
+  @apply flex justify-center mt-0 md:mt-10 2xl:mt-20 
 }
 .container-about {
 @apply w-10/12 mx-auto pb-10 mt-10  md:w-3/5 lg:w-2/5  leading-7 
