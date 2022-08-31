@@ -16,7 +16,7 @@ padding-top: 8px !important;
 
 /* HomePage */
 #YEKMAT{
-@apply  font-extrabold text-5xl
+@apply  font-semibold text-4xl
 }
 .hr-home {
   @apply opacity-80 w-10 mx-auto mt-10 mb-10 ; 
