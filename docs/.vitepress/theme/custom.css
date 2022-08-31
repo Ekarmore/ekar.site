@@ -16,13 +16,16 @@ padding-top: 8px !important;
 
 /* HomePage */
 #YEKMAT{
-@apply mb-5 font-semibold text-4xl
+@apply font-semibold text-4xl
 }
 .hr-home {
   @apply opacity-80 w-10 mx-auto mt-10 mb-10 ; 
 }
+.site-logo{
+@apply mb-10
+}
 .container-home {
-  @apply flex justify-center 
+  @apply flex justify-center md:mt-10 2xl:mt-20 
 }
 .container-about {
 @apply w-10/12 mx-auto pb-10 mt-10  md:w-3/5 lg:w-2/5  leading-7
