@@ -6,6 +6,9 @@
 body {
   @apply break-all m-0 p-0 md:m-0 md:p-0;
 }
+.VPNavBar{
+@apply border-none !important
+}
 /* 
 .VPNavBar{
 border-bottom:0px !important;
