@@ -36,11 +36,11 @@ padding-top: 8px !important;
 @apply w-10/12 mx-auto pb-10 mt-10  md:w-3/5 lg:w-2/5  leading-7 
 }
 .about-text-1{
-@apply border-b border-gray-300 hover:border-current transition-all duration-300
+@apply border-b border-gray-400 hover:border-current transition-all duration-300 
 }
 
 .about-text {
-  @apply pt-5  ;
+  @apply pt-5 ;
 }
 /* footer */
 .footer-list {
@@ -49,7 +49,7 @@ padding-top: 8px !important;
 
 
 .link-foot {
-  @apply  border-b rounded-b-none md:border-gray-300 md:border-b  hover:border-current transition-all duration-300;
+  @apply  border-b border-gray-400 hover:border-current transition-all duration-300 
 }
 .footer-list {
   @apply  mt-10 text-left ;

@@ -5,8 +5,8 @@
       <p id="YEKMAT">关于我</p>
       <!-- <img class="site-logo" src="/Ekar.png" alt=""> -->
       <p id="p1" class="about-text">
-        Hey,我是YEKMAT,来自这颗蓝色星球某一处的氧气呼吸者,心脏跳动者,<a href="" class="about-text-1">前端开发爱好者</a>,<a
-          href="" class="about-text-1">自由摄影师</a>以及<a href="" class="about-text-1">平面设计师。</a></p>
+        Hey,我是YEKMAT,来自这颗蓝色星球某一处的氧气呼吸者,<a href="" class="about-text-1">前端开发爱好者</a>,<a
+          href="" class="about-text-1">自由摄影师</a>以及<a href="" class="about-text-1">平面设计师</a></p>
 
       <p id="p1" class="about-text">
         通过偶然的机会,我开始喜欢上编程并开始学习前端以及试图用编程的方式实现一些有趣的想法,这个网站的创建是其中之一,深受开源精神和互联网分享精神的打动,我也收录了一些自己创造的或是收集到的内容在网站内集中分享以作为享受者的回馈,它们当中有的关于<a
