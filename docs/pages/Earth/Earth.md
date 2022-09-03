@@ -2,5 +2,6 @@
 layout: page
 title : 'Earth'
 ---
+<Earth/>
 
-<Design/>
+# Spline

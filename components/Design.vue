@@ -4,7 +4,7 @@
         <hr class="des-hr">
     <p class="des-title-year">2022</p>
     <div class="des-catalog">
-        <a class="des-link" href="">用Spline做一个可以互动的地球🌍 </a>
+        <a class="des-link" href="http://localhost:3000/pages/Earth/Earth.html">用Spline做一个可以互动的地球🌍 </a>
         <a class="des-link" href="">用Spline做一个可以互动的地球🌍 </a>
         <a class="des-link" href="">用Spline做一个可以互动的地球🌍 </a>
     </div>

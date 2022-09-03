@@ -11,6 +11,7 @@ export default defineConfig({
   base: "/",
   lang: "en-US",
   description: "Vite & Vue powered static site generator.",
+  lastUpdated:true,
   themeConfig: {
     nav: [
       // { text: "前端", link: "前端/HTML" },
@@ -28,27 +29,16 @@ export default defineConfig({
       // }
     ],
     sidebar: {
-      "/前端/": [
+      "pages/Earth/": [
         {
-          text: "前端",
+          text: "Spline",
           items: [
             {
               text: "引言",
-              link: "/前端/HTML",
+              link: "/Earth/",
             },
           ],
           collapsible: true,
-        },
-      ],
-      "/后端/": [
-        {
-          text: "前端",
-          items: [
-            {
-              text: "引言",
-              link: "/前端/HTML",
-            },
-          ],
         },
       ],
     },
