@@ -4,4 +4,3 @@ title : 'Earth'
 ---
 <Earth/>
 
-# Spline
