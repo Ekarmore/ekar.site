@@ -6,6 +6,7 @@
       <!-- <img class="site-logo" src="/Ekar.png" alt=""> -->
       <p id="p1" class="about-text">
         Hey,我是YEKMAT,来自这颗蓝色星球某一处的氧气呼吸者,<a href="" class="about-text-1">前端开发爱好者</a>,<a
+          href="" class="about-text-1">网页设计师</a>,<a
           href="" class="about-text-1">自由摄影师</a>。</p>
 
       <p id="p1" class="about-text">
