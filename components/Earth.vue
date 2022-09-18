@@ -6,7 +6,7 @@
      <p class="annotation">(使用手指拖动地球)</p>
      <p class="s-title">Spline</p>
      <hr class="s-hr"/>
-     <p class="s-text"><span><a href="">Spline</a></span>是一个轻量级的3D即时渲染软件,它提供了许多便捷的功能</p>
+     <p class="s-text"><span><a href="">Spline</a></span>是一个轻量级的3D即时渲染软件,它实现了许多便捷的方式让我们可以实时的创造出优美的3D模型并为它绑定事件呈现在自己的网页中</p>
     </main>
 </template>
 
@@ -25,6 +25,6 @@ export default {};
  @apply opacity-30 mt-5 mb-5
 }
 .s-text{
- @apply  text-sm md:text-lg mb-20 
+ @apply  text-sm md:text-lg pb-10
 }
 </style>

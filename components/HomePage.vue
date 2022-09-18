@@ -14,7 +14,7 @@
           class="about-text-1" href="">前端开发</a>,有的关于<a class="about-text-1" href="">设计</a>,希望它们能给你带来一些帮助或成为灵感的来源。
       </p>
       <p class="about-text">同时我热爱拍照,如果你也视一些独特的光景为珍宝或仅仅是喜欢拍照,也可以来我的<a class="about-text-1"
-          href="">摄影个站:Ekar Photography</a>看看我在做的一些摄影项目,谈谈你的感受亦或是由于志同道合成为好友,一起聊聊拍照和参与一些摄影社群活动。
+          href="https://pic.ekar.site">摄影个站</a>看看我在做的一些摄影项目,谈谈你的感受亦或是由于志同道合成为好友,一起聊聊拍照和参与一些摄影社群活动。
       </p>
       <hr class="hr-home" />
 
