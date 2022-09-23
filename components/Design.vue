@@ -5,36 +5,10 @@
     <p class="des-title-year">2022</p>
     <div class="des-catalog">
       <a class="des-link" href="/pages/Design/Earth/Earth"
-        >用Spline做一个可以互动的地球🌍
+        >用Spline做一个可以互动的地球 🌍
       </a>
     </div>
   </section>
-  <!-- <div class="des-catalog">
-        <div class="des-menu">
-        <a class="des-link" href="">1</a>
-        <a class="des-link" href="">2</a>
-        <a class="des-link" href="">3</a>
-        <a class="des-link" href="">4</a>
-        <a class="des-link" href="">5</a>
-        <a class="des-link" href="">Earth</a>
-    </div>
-    <div class="des-menu">
-        <a class="des-link" href="">1</a>
-        <a class="des-link" href="">2</a>
-        <a class="des-link" href="">3</a>
-        <a class="des-link" href="">4</a>
-        <a class="des-link" href="">5</a>
-        <a class="des-link" href="">Earth</a>
-    </div>
-    <div class="des-menu">
-        <a class="des-link" href="">1</a>
-        <a class="des-link" href="">2</a>
-        <a class="des-link" href="">3</a>
-        <a class="des-link" href="">4</a>
-        <a class="des-link" href="">5</a>
-        <a class="des-link" href="">Earth</a>
-    </div>
-    </div> -->
 </template>
 
 <script>
