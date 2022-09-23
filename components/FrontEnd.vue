@@ -4,7 +4,7 @@
         <hr class="des-hr">
     <p class="des-title-year">2022</p>
     <div class="des-catalog">
-        <a class="des-link" href="/pages/Git/Git.html">一些你可能会用到的Git命令 📇</a>
+        <a class="des-link" href="/pages/FrontEnd/Git/Git">一些你可能会用到的Git命令 📇</a>
     </div>
     </section>
     
