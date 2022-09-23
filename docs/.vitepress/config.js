@@ -11,7 +11,7 @@ export default defineConfig({
   base: "/",
   lang: "en-US",
   description: "Vite & Vue powered static site generator.",
-  // lastUpdated:false,
+  lastUpdated:true,
   themeConfig: {
     nav: [
       // { text: "前端", link: "前端/HTML" },

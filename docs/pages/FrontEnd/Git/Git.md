@@ -1,6 +1,8 @@
 ---
 layout: doc
 title : 'Git'
+prev: 'Get Started | Markdown'
+next: 'Get Started | Markdown'
 ---
 
 # Git命令

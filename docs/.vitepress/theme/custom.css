@@ -57,8 +57,8 @@ padding-top: 8px !important;
 
 /* Earth */
 .earthContainer{
-height:600px;
-@apply  w-11/12 md:w-5/6 mx-auto mt-5 m-5 p-1  
+height: 600px;
+@apply mt-20
 }
 .earth{
 @apply  w-full h-4/5 rounded-3xl
