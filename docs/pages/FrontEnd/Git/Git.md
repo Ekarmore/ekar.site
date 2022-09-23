@@ -163,37 +163,125 @@ $ git diff HEAD
 $ git diff [first-branch]...[second-branch]
 ```
 ## 远程协作
+远程协作是Git最重要的功能之一,你可以使用<code>git remote</code>命令来查看远程仓库的信息。
 ```
-# 查看远程服务器的简写
+查看远程服务器的简写
 $ git remote
 
-# 显示需要读写远程仓库使用的 Git 保存的简写与其对应的 URL
+查看需要操作的远程仓库的Git保存的简写名与URL
 $ git remote -v
 
-# 显示摸个远程仓库的详细信息
+查看指定远程仓库的详细信息
 $ git remote show [remote]
+```
+你可以使用<code>pull</code>与<code>push</code>以及<code>fetch</code>来从远程仓库中拉取或推送文件。
+```
+添加一个新的远程 Git 仓库，同时指定一个方便使用的简写
+$ git remote add <abbr> <url>
 
-# 添加一个新的远程 Git 仓库，同时指定一个方便使用的简写
-$ git remote add <shortname> <url>
-
-# 从远程仓库中拉取代码，但不会合并
+从远程仓库中拉取代码，但不会合并
 $ git fetch [remote]
 
-# 取回远程仓库的变化，并与本地分支合并
+取回远程仓库的变化，并与本地分支合并
 $ git pull [remote] [branch]
 
-# 将 <branch> 分支上的代码推送到 <remote>
+将 <branch> 分支上的代码推送到 <remote>
 $ git push <remote> <branch>
 
-# 推送所有分支到远程仓库
+推送所有分支到远程仓库
 $ git push [remote] -all
 
-# 修改远程仓库的简写名
+修改远程仓库的简写名
 $ git remote rename <old> <new>
 
-# 移除远程仓库
+移除远程仓库
 $ git remote remove <remote>
 
-# 删除远程分支
+删除远程分支
 $ git push origin --delete <branch>
+```
+## 分支
+每一个分支都可以被看作是独立的开发线，你可以创建一个属于自己的分支来进行开发，并且你在此分支的任何操作都不会影响远程仓库，你可以使用<code>git branch</code>命令来对分支进行查看、建立、删除、更该操作。
+```
+列出本地分支
+$ git branch
+
+列出本地分支与追踪关系
+$ git branch -vv
+
+列出远程分支
+$ git branch -r
+
+列出所有分支
+$ git branch -a
+
+建立分支不切换工作区
+$ git branch <branch>
+
+删除已被合并的分支
+$ git branch -d <branch>
+
+强制删除未被合并的分支
+$ git branch -D <branch>
+
+更改分支名字
+$ git branch -m <newbranch>
+
+设置追踪分支
+$ git branch -u <upstream>
+```
+有时你需要切换到另外的分支进行开发,你可以使用<code>git checkout</code>命令在分支之间切换。
+```
+切换分支
+git checkout <branch>
+
+建立分支并切换工作区
+git checkout -b <branch>
+
+切换到最近一次分支
+git checkout -
+
+建立无任何提交历史的分支
+git checkout --orphan <branch>
+```
+完成开发的分支在最后会被决定去向,如果决定合并到主分支中,在这时你可以使用<code>git merge</code>命令来进行分支合并操作。
+```
+合并 develop 分支到本分支
+git merge develop
+
+强制合并分支后生成 merge commit
+git merge -no-ff develop
+
+合并最近切换分支
+git merge -
+
+变基合并 develop 分支
+git rebase develop
+
+变基进入交互式界面
+git rebase -i
+```
+## 标签
+在开发进行到重要的版本时你会希望标记这次的快照,标签的功能便是让你获得这样做的能力。
+```
+列出所有标签并显示标签信息
+git tag -ln
+
+添加一个标签
+git tag -a v1.0.0 -m <message>
+
+在某个 commit 上添加一个标签
+git tag v0.9.0 <commit>
+
+删除一个标签
+git tag -d v1.0.0
+
+查看某个标签信息
+git show v1.0.0
+
+推送所有标签到远程仓库
+git push --tags
+
+使用最近的标签描述本次提交
+git describe
 ```
