@@ -75,5 +75,5 @@ height:600px;
   font-size: 48px;
   }
 mark{
-@apply bg-gray-200 rounded-md pr-1 pl-1
+@apply bg-gray-200 rounded-md p-1
 }

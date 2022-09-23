@@ -29,23 +29,21 @@ export default defineConfig({
       // }
     ],
     sidebar: {
-      "pages/Earth/": [
+      "pages/FrontEnd/Git/": [
         {
-          text: "Spline",
+          text: "Basis",
           items: [
             {
-              text: "引言",
-              link: "/Earth/",
+              text: "Git基础",
+              link: "pages/FrontEnd/Git/Git.html",
             },
           ],
           collapsible: true,
         },
       ],
-    },
-    sidebar: {
-      "pages/FrontEnd/Git/": [
+      "pages/Design/Earth/": [
         {
-          text: "基础",
+          text: "Basis",
           items: [
             {
               text: "引言",
