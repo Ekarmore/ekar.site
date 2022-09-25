@@ -7,7 +7,7 @@
         <a class="des-link" href="/pages/FrontEnd/Git/Git">📇 一些你可能会用到的Git命令</a>
         <a class="des-link" href="/pages/FrontEnd/package-json/package-json">📦 package.json 指北</a>
     </div>
-    <p class="fe-footer">Copyright © 2022-present YEKMAT</p>
+    <p class="fe-footer">Copyright © 2022-present Ekar</p>
     </section>
     
 </template>

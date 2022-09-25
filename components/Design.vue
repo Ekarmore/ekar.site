@@ -7,11 +7,8 @@
       <a class="des-link" href="/pages/Design/Earth/Earth"
         >🌍 用Spline做一个可以互动的地球
       </a>
-      <a class="des-link" href="/pages/Design/Earth/Earth"
-        >🌍 用Spline做一个可以互动的地球
-      </a>
     </div>
-    <p  class="fe-footer">Copyright © 2022-present YEKMAT</p>
+    <p  class="fe-footer">Copyright © 2022-present Ekar</p>
   </section>
 </template>
 

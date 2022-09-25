@@ -29,7 +29,7 @@
         <br />
         <p class="about-text">最后,祝你度过快乐的一天,再见。</p>
       </div>
-      <p id="p1" class="footer-list">Copyright © 2022-present YEKMAT</p>
+      <p id="p1" class="footer-list">Copyright © 2022-present Ekar</p>
     </div>
   </article>
   <!-- <love/> -->
