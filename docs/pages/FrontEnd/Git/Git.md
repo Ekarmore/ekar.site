@@ -6,6 +6,7 @@ next: 'Get Started | Markdown'
 ---
 
 # Git命令
+写给自己的Git命令合集,因为我知道遇到想不起的Git指令,你会在Google寻找答案而不是这里。
 ## 用户信息
 在多人协作的仓库中,标明身份是必要的,在<code>config --global</code>中的<code>user.name</code>与<code>user.email</code>中录入你的用户名与邮箱地址,通常情况下你只需要设置一次全局用户信息。
 ```

@@ -7,11 +7,12 @@
         <a class="des-link" href="/pages/FrontEnd/Git/Git">📇 一些你可能会用到的Git命令</a>
         <a class="des-link" href="/pages/FrontEnd/package-json/package-json">📦 package.json 指北</a>
     </div>
+    <p class="fe-footer">Copyright © 2022-present YEKMAT</p>
     </section>
     
 </template>
     
-    <script>
+<script>
 export default {};
 </script>
     
@@ -26,16 +27,16 @@ export default {};
   @apply text-3xl xl:text-3xl  mt-10  font-extrabold;
 }
 .des-link {
-  @apply text-sm  xl:text-lg opacity-80 hover:opacity-100  border-l border-gray-400 border-opacity-40 p-1 pl-3 xl:mt-5 hover:border-opacity-100  duration-500 ease-in-out
+  @apply  mt-5 xl:text-lg opacity-80 hover:opacity-100  border-l border-gray-400 border-opacity-40 p-1 pl-3 xl:mt-5 hover:border-opacity-100  duration-500 ease-in-out
 }
 .des-menu {
-  @apply w-36 mx-auto mt-10  flex flex-col-reverse   items-center justify-center h-96 bg-red-200;
+  @apply w-36 mx-auto mt-10  flex flex-col-reverse   items-center justify-center h-96 ;
 }
 .des-catalog {
   @apply flex justify-between  mx-auto mt-5 xl:mt-10 flex-col-reverse;
 }
 .des-container {
-  @apply w-4/5 xl:w-2/5 mx-auto;
+  @apply w-4/5 xl:w-2/5 mx-auto ;
 }
     </style>
     

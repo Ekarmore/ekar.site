@@ -1,7 +1,7 @@
 ---
 layout: doc
 title : 'Git'
-prev: 'Get Started | Markdown'
+prev: 'Git | Markdown'
 next: 'Get Started | Markdown'
 ---
 

@@ -46,7 +46,11 @@ padding-top: 8px !important;
 .footer-list {
   @apply text-sm text-center opacity-70 md:mt-10;
 }
+.fe-footer{
+  
+  @apply mt-40 text-sm  opacity-70
 
+}
 
 .link-foot {
   @apply  border-b border-gray-400 hover:border-current transition-all duration-300 
