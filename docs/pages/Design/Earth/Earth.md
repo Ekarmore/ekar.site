@@ -5,6 +5,7 @@ title : 'Earth'
 # 用Spline做一个可以互动的地球 🌍
 
 ## 展示
+
 <div class="earthContainer">
 <h1 class='text-center mt-5 mb-10'>Our beautiful and only home</h1>
  <iframe class="earth" src='https://my.spline.design/untitled-8a64435d8d1f4464359768064ccb15cb/' />
@@ -12,6 +13,7 @@ title : 'Earth'
 </div>
 
 ## Spline是什么?
+
 <p><span><a target="_blank" href="https://spline.design/">Spline</a></span>是一个轻量的、支持即时渲染的3D建模软件,它提供了许多直观且简单的功能和方法让我们可以创造出优美的3D模型且让这一切都即时可观的展示,并且它也可以完成代码交付的功能,它支持为我们构建的模型和场景绑定一系列事件并为我们的项目生成一个可以在线预览的网页并允许我们通过<code>iframe标签</code>让它显示在我们需要的位置,在本篇文章里,我要做的是通过以上方式将一个可互动的地球模型嵌入到本页面中,这个过程包含建模、添加事件以及配置部署。</p>
 
 ## 创建Spline项目

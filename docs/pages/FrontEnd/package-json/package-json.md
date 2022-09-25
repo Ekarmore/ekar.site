@@ -6,6 +6,7 @@ next: 'Get Started | Markdown'
 ---
 
 # package.json 指北
+
 ## package.json 是什么?
 package.json是记录项目或模块包的文件,它记录了包括但不限于:项目名称、项目版本、项目描述、项目入口文件、项目依赖模块包信息、项目脚本、项目许可证书、项目贡献者等内容。当我们使用<code>npm install</code>命令时,npm便是根据package.json文件内记录的信息下载依赖。<br/>
 

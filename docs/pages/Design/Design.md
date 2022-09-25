@@ -1,6 +1,6 @@
 ---
 layout: page
-title : 'Earth'
+title : 'Design'
 ---
 
 <Design/>
