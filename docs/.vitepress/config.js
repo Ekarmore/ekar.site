@@ -34,8 +34,8 @@ export default defineConfig({
           text: "Basis",
           items: [
             {
-              text: "Git基础",
-              link: "pages/FrontEnd/Git/Git.html",
+              text: "package.json 指北",
+              link: "pages/FrontEnd/package-json/package-json.html",
             },
           ],
           collapsible: true,
@@ -47,6 +47,18 @@ export default defineConfig({
           items: [
             {
               text: "引言",
+              link: "/Earth/",
+            },
+          ],
+          collapsible: true,
+        },
+      ],
+      "pages/FrontEnd/package-json/": [
+        {
+          text: "Basis",
+          items: [
+            {
+              text: "some",
               link: "/Earth/",
             },
           ],
