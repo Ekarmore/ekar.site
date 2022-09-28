@@ -24,7 +24,15 @@ export default defineConfig({
           items: [
             {
               text: "package.json 指北",
-              link: "pages/FrontEnd/package-json/package-json.html",
+              link: "pages/FrontEnd/Git/Git.html",
+            },
+            {
+              text: "package.json 指北",
+              link: "pages/FrontEnd/Git/Git.html",
+            },
+            {
+              text: "package.json 指北",
+              link: "pages/FrontEnd/Git/Git.html",
             },
           ],
           collapsible: true,

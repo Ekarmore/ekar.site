@@ -7,6 +7,8 @@
       <a class="des-link" href="/pages/FrontEnd/website/website">📝 一个简单的开始</a>  
       <a class="des-link" href="/pages/FrontEnd/Git/Git">📏 px? pt? em? rem?</a>
       <a class="des-link" href="/pages/FrontEnd/Git/Git">📇 一些你可能会用到的Git命令</a>
+      <a class="des-link" href="/pages/FrontEnd/Git/Git">🌱 macOs环境下配置mongoDB</a>
+      <a class="des-link" href="/pages/FrontEnd/Git/Git">🪄 重新装修你的zsh</a>
       <a class="des-link" href="/pages/FrontEnd/package-json/package-json">📦 package.json 指北</a>  
     </div>
     <p class="fe-footer">Copyright © 2022-present Ekar</p>
