@@ -1,9 +1,9 @@
 ---
 layout: doc
 title : 'Git'
-prev: 'Get Started | Markdown'
-next: 'Get Started | Markdown'
+next: 'aaa'
 ---
+
 
 # Git命令
 写给自己的Git命令合集,因为我知道遇到想不起的Git指令,你会在Google寻找答案而不是这里。
