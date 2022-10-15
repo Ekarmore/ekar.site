@@ -14,31 +14,31 @@ export default defineConfig({
   lastUpdated: true,
   themeConfig: {
     nav: [
-      { text: "Design", link: "pages/Design/Design" },
-      { text: "Front End", link: "pages/FrontEnd/FrontEnd" },
+      { text: "Design", link: "/Design/Design" },
+      { text: "Front End", link: "/FrontEnd/FrontEnd" },
     ],
     sidebar: {
-      "pages/FrontEnd/Git/": [
+      "/FrontEnd/Git/": [
         {
-          text: "Basis",
+          text: "essentials",
           items: [
             {
               text: "package.json 指北",
-              link: "pages/FrontEnd/Git/Git.html",
+              link: "FrontEnd/Git/Git.html",
             },
             {
               text: "package.json 指北",
-              link: "pages/FrontEnd/Git/Git.html",
+              link: "FrontEnd/Git/Git.html",
             },
             {
               text: "package.json 指北",
-              link: "pages/FrontEnd/Git/Git.html",
+              link: "FrontEnd/Git/Git.html",
             },
           ],
           collapsible: true,
         },
       ],
-      "pages/Design/Earth/": [
+      "/Design/Earth/": [
         {
           text: "Basis",
           items: [
@@ -50,7 +50,7 @@ export default defineConfig({
           collapsible: true,
         },
       ],
-      "pages/FrontEnd/package-json/": [
+      "/FrontEnd/package-json/": [
         {
           text: "Basis",
           items: [
@@ -62,7 +62,7 @@ export default defineConfig({
           collapsible: true,
         },
       ],
-      "pages/FrontEnd/website/": [
+      "/FrontEnd/website/": [
         {
           text: "Basis",
           items: [
