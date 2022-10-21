@@ -16,21 +16,21 @@ package.json是记录项目或模块包的文件,它记录了包括但不限于:
 ## name
 如果你想要发布一个包，<code>name/包名</code>和<code>version/版本</code>是十分重要且必不可少的信息,它们被视为是该包完全唯一的标识符。当你的包是发布在线上供大家下载使用的,在你对包的内容进行更改时,你应该让<code>version/版本</code>与你对包的更改保持同步,而当你只是在本地环境中作为个人使用,则<code>version/版本</code>的作用并不十分重要,你可以选择不再让它和你对包的更改同步。
 
-顾名思义,<code>name</code>是该包的名称,我们平时简称为包名
+顾名思义,<code>name</code>是该包的名称,我们平时简称为包名,它遵守以下规则:
 
-## 仓库
-你可以在目录中通过<code>git init</code>命令创建并初始化新的Git仓库,当你需要克隆一个仓库时可以使用<code>git clone `<git-repo>`</code>命令克隆你需要克隆的仓库到本地。
+包名不大于214个字符,包含scoped packages的scope
 
+包名不允许包含大写字母
 
-## 操作日志
-你可以使用<code>git log</code>与<code>git diff</code>命令来查看操作日志与commit之间的差异。
+包名可以被当作URL或者命令行的一个参数或文件夹的名称,因此包名应该使用URL-safe的字符进行命名
 
+## Version
 
-## 远程协作
+<code>version</code>与ß<code>name</code>组合成为package的唯一标识符,如果你打算发布你的包,version应该与包的更新保持同步,反之则无需同步。
 
-## 分支
-每一个分支都可以被看作是独立的开发线，你可以创建一个属于自己的分支来进行开发，并且你在此分支的任何操作都不会影响远程仓库，你可以使用<code>git branch</code>命令来对分支进行查看、建立、删除、更该操作。
+## description 与 keywords
 
-## 标签
-在开发进行到重要的版本时你会希望标记这次的快照,标签的功能便是让你获得这样做的能力。
+使用<code>description</code>为你的包添加说明
+使用<code>keywords</code>为你的包添加关键词
 
+<code>description</code>与<code>keywords</code>使得你的包更容易被别人发现,并且<code>description</code>与<code>keywords</code>将会显示在<code>npm search</code>列表中。
