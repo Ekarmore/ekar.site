@@ -4,11 +4,10 @@
     <hr class="des-hr" />
     <p class="des-title-year">2022</p>
     <div class="des-catalog">
-      <a class="des-link" href="Design/Earth/Earth"
+      <a class="des-link" href="/Design/Earth/Earth"
         >🌍 用Spline做一个可以互动的地球
       </a>
     </div>
-    <p  class="fe-footer">Copyright © 2022-present Ekar</p>
   </section>
 </template>
 

@@ -11,7 +11,6 @@
       <a class="des-link" href="/FrontEnd/Git/Git">🪄 重新装修你的zsh</a>
       <a class="des-link" href="/FrontEnd/package-json/package-json">📦 package.json 指北</a>  
     </div>
-    <p class="fe-footer">Copyright © 2022-present Ekar</p>
     </section>
     
 </template>
