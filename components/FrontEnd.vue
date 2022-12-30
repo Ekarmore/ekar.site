@@ -4,11 +4,11 @@
         <hr class="des-hr">
     <p class="des-title-year">2022</p>
     <div class="des-catalog">
-      <a class="des-link" href="/FrontEnd/website/website">📝 一个简单的开始</a>  
-      <a class="des-link" href="/FrontEnd/Git/Git">📏 px? pt? em? rem?</a>
+      <!-- <a class="des-link" href="/FrontEnd/website/website">📝 一个简单的开始</a>   -->
+      <!-- <a class="des-link" href="/FrontEnd/Git/Git">📏 px? pt? em? rem?</a> -->
       <a class="des-link" href="/FrontEnd/Git/Git">📇 一些你可能会用到的Git命令</a>
-      <a class="des-link" href="/FrontEnd/Git/Git">🌱 macOs环境下配置mongoDB</a>
-      <a class="des-link" href="/FrontEnd/Git/Git">🪄 重新装修你的zsh</a>
+      <!-- <a class="des-link" href="/FrontEnd/Git/Git">🌱 macOs环境下配置mongoDB</a>
+      <a class="des-link" href="/FrontEnd/Git/Git">🪄 重新装修你的zsh</a> -->
       <a class="des-link" href="/FrontEnd/package-json/package-json">📦 package.json 指北</a>  
     </div>
     </section>
